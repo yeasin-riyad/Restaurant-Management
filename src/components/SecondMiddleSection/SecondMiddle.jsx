@@ -1,4 +1,5 @@
 import ByteTest from "../ByteTest";
+import Heading from "../Heading";
 import MiddleContainer from "../MiddleContainer";
 import FoodSlides from "./FoodSlides";
 
@@ -9,7 +10,7 @@ const SecondMiddle = () => {
         <div className="flex flex-col items-start justify-start gap-y-6">
           <div className="flex flex-col gap-y-3">
             <ByteTest header={"Crispy, Every Bite Taste"}/>
-            <h1 className="font-bebas font-bold text-6xl">POPULAR FOOD ITEMS</h1>
+            <Heading header={"POPULAR FOOD ITEMS"}/>
           </div>
           <div>
     
