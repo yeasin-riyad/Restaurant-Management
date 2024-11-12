@@ -1,6 +1,8 @@
 import Navbar from './header/Navbar'
 import Hero from './header/Hero'
 import TopMiddle from '../components/Navbar/MiddleSection/TopMiddle'
+import SecondMiddle from '../components/SecondMiddleSection/SecondMiddle'
+import ThirdMiddle from '../components/ThirdMiddleSection/ThirdMiddle'
 
 const Main = () => {
   return (
@@ -8,6 +10,8 @@ const Main = () => {
      <Navbar/>
      <Hero/>
      <TopMiddle/>
+     <SecondMiddle/>
+     <ThirdMiddle/>
    </div>
   )
 }

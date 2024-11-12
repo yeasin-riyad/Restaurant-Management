@@ -86,7 +86,7 @@ const TopMiddle = () => {
         </div>
       </div>
 
-      <div className=" flex my-4 flex-col justify-center gap-y-6  items-start lg:flex-row lg:justify-between lg:items-center lg:mt-16">
+      <div className=" flex mt-4 flex-col justify-center gap-y-6  items-start lg:flex-row lg:justify-between lg:items-center lg:mt-16">
         <LittleComponent
           img="https://i.ibb.co.com/mXR2WLx/package.png"
           alt="Package"
