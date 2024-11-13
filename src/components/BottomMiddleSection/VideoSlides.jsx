@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import VideoSlider from './VideoSlider';
 
 const VideoSlides = () => {
@@ -27,6 +27,17 @@ const VideoSlides = () => {
     <VideoSlider key={3} video={"https://www.youtube.com/embed/rzkv6b_YEys?si=WZZY5h3vhBiX-Oz3" }/>,
     <VideoSlider key={4} video={"https://www.youtube.com/embed/iBkTVto3osE?si=VHgI8zPNl9e60OjF" }/>
   ];
+
+
+   // Autoplay effect
+   useEffect(() => {
+    const intervalId = setInterval(() => {
+      moveSlide(1); // Move to the next slide every 3 seconds
+    }, 3000);
+
+    return () => clearInterval(intervalId); // Clear interval on unmount
+  }, [currentIndex, slidesPerView]);
+
 
   const moveSlide = (direction) => {
     const totalSlides = videoCards.length;

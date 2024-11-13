@@ -5,7 +5,7 @@ import LittleComponent from "./littleComponent";
 
 const TopMiddle = () => {
   const links = [
-    { path: "/about", label: "About" },
+    { path: "/", label: "About" },
     { path: "/experience", label: "Experience" },
     { path: "/contact", label: "Contact" },
   ];

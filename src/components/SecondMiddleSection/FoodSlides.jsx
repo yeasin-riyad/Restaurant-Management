@@ -21,6 +21,7 @@ const FoodSlides = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  // Array of FoodCard components
   const foodCards = [
     <FoodCard
       key="1"
@@ -72,6 +73,7 @@ const FoodSlides = () => {
     />
   ];
 
+  // Function to move the slide
   const moveSlide = (direction) => {
     const totalSlides = foodCards.length;
     setCurrentIndex((prevIndex) => {
@@ -84,6 +86,15 @@ const FoodSlides = () => {
       return newIndex;
     });
   };
+
+  // Autoplay effect
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      moveSlide(1); // Move to the next slide every 3 seconds
+    }, 3000);
+
+    return () => clearInterval(intervalId); // Clear interval on unmount
+  }, [currentIndex, slidesPerView]);
 
   return (
     <div className="relative w-full mt-5 mx-auto lg:mt-8">

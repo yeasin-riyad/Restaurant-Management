@@ -1,7 +1,7 @@
 const VideoSlider = ({video}) => {
   return (
-    <div className="flex flex-col-reverse mt-48 lg:flex-row h-[500px] lg:mt-6">
-      <div className="bg-YElloW w-full  p-8 lg:p-16 lg:w-3/4">
+    <div className="flex flex-col-reverse   lg:flex-row h-[500px] lg:mt-6 lg:-mb-14">
+      <div className="bg-YElloW w-full relative  p-8 lg:p-16 lg:w-3/4 ">
       <div className=" flex flex-col gap-y-7 justify-between font-roboto font-normal w-full text-[#0A1425] lg:gap-y-14 ">
         <p className="text-lg lg:text-2xl">
           <span className="inline-block text-5xl -ml-5 lg:-ml-6">“</span> You can't go
@@ -31,7 +31,11 @@ const VideoSlider = ({video}) => {
         </div>
 
 
+
+
       </div>
+
+      <img className="w-10 p-0 h-[75px] absolute bottom-16 hidden md:block" src="../../../public/Group.svg" alt="" />
 
       <div className="w-full overflow-visible">
         <div className="relative w-full h-[250px] pb-[56.25%] lg:h-[500px]">

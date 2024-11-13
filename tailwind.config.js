@@ -15,6 +15,7 @@ export default {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, rgba(189, 31, 23, 0) 32.88%, rgba(189, 31, 23, 0.7) 100%)',
         'middle-container': "url('https://i.ibb.co.com/ggsnW6V/bg.jpg')",
+        'interior-design':"url('https://i.ibb.co.com/p0DhJ9D/Restaurant-Interior.jpg')",
 
       },
       colors: {

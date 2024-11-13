@@ -4,6 +4,7 @@ import TopMiddle from '../components/Navbar/MiddleSection/TopMiddle'
 import SecondMiddle from '../components/SecondMiddleSection/SecondMiddle'
 import ThirdMiddle from '../components/ThirdMiddleSection/ThirdMiddle'
 import BottomMiddleSection from '../components/BottomMiddleSection/BottomMiddleSection'
+import Footer from '../components/Footer/Footer'
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
      <SecondMiddle/>
      <ThirdMiddle/>
      <BottomMiddleSection/>
+     <Footer/>
    </div>
   )
 }
