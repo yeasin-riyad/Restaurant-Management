@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ClientsPage from "./components/Clients/ClientPage";
+import BlogPage from "./components/Blog/BlogPage";
 
   const router = createBrowserRouter([
     {
@@ -25,6 +26,11 @@ import ClientsPage from "./components/Clients/ClientPage";
         },{
           path:'clients',
           element:<ClientsPage/>
+
+        },
+        {
+          path:'blog',
+          element:<BlogPage/>
         }
       ]
     },
