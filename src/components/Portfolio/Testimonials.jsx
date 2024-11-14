@@ -82,7 +82,7 @@ const Testimonials = () => {
 
       {/* Navigation arrows */}
       <div
-        className={`absolute ${slidesPerView === 1 ? 'bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full mt-2' : 'top-1 right-0'} flex space-x-2`}
+        className={`absolute ${slidesPerView === 1 ? 'bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full mt-2' : 'top-1 right-10'} flex space-x-2`}
       >
         <button
           onClick={() => moveSlide(-1)}
