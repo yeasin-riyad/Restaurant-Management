@@ -20,7 +20,8 @@ export default {
       },
       colors: {
         customColor: 'rgb(251, 247, 242)',
-        YElloW:'hsl(45, 100%, 50%)'
+        YElloW:'hsl(45, 100%, 50%)',
+        customRed:'hsl(5, 73%, 45%)'
       },
 
     },
