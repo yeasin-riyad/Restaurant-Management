@@ -18,7 +18,7 @@ const NavLinks = ({ onClick }) => (
                 to={link.path}
                 onClick={onClick}
                 className={({ isActive }) =>
-                    `${isActive ? 'text-gray-200 font-semibold' : 'text-white hover:text-gray-300'} 
+                    `${isActive ? 'text-yellow-400 font-semibold' : 'text-white hover:text-gray-300'} 
                     font-raleway font-medium text-[15px]`
                 }
             >
