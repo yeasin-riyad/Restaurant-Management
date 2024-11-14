@@ -3,6 +3,7 @@ import SecondMiddle from '../components/SecondMiddleSection/SecondMiddle'
 import TopMiddle from './Navbar/MiddleSection/TopMiddle'
 import ThirdMiddle from './ThirdMiddleSection/ThirdMiddle'
 import BottomMiddleSection from './BottomMiddleSection/BottomMiddleSection'
+import Testimonials from './Portfolio/Testimonials'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
      <TopMiddle/>
      <SecondMiddle/>
      <ThirdMiddle/>
+     <Testimonials/>
      <BottomMiddleSection/>
     </div>
   )

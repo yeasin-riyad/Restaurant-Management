@@ -23,7 +23,7 @@ const About = () => {
             <div className='text-black dark:text-white'>Image Loading......</div>
             )}
             <img
-              src="https://i.ibb.co.com/b7GvL4P/pexels-igor-starkov-233202-1307698.jpg"
+              src="https://i.ibb.co.com/kBB5RBW/pexels-fotios-photos-776538-1.jpg"
               alt="Authentic Saudi Arabian Dishes"
               className={`w-full h-full object-cover ${isImageLoading ? 'hidden' : 'block'}`}
               onLoad={() => setIsImageLoading(false)}
