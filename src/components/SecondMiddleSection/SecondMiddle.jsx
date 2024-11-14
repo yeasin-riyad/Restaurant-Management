@@ -6,7 +6,7 @@ import FoodSlides from "./FoodSlides";
 const SecondMiddle = () => {
   return (
     <div className={"bg-customColor relative"}>
-      <MiddleContainer >
+      <MiddleContainer className={"lg:py-5"}>
         <div className="flex flex-col items-start justify-start gap-y-6">
           <div className="flex flex-col gap-y-3">
             <ByteTest header={"Crispy, Every Bite Taste"}/>

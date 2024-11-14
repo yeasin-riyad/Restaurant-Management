@@ -30,13 +30,13 @@ const VideoSlides = () => {
 
 
    // Autoplay effect
-   useEffect(() => {
-    const intervalId = setInterval(() => {
-      moveSlide(1); // Move to the next slide every 3 seconds
-    }, 3000);
+  //  useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     moveSlide(1); // Move to the next slide every 3 seconds
+  //   }, 3000);
 
-    return () => clearInterval(intervalId); // Clear interval on unmount
-  }, [currentIndex, slidesPerView]);
+  //   return () => clearInterval(intervalId); // Clear interval on unmount
+  // }, [currentIndex, slidesPerView]);
 
 
   const moveSlide = (direction) => {

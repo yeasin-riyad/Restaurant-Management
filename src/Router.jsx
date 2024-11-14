@@ -9,6 +9,7 @@ import ClientsPage from "./components/Clients/ClientPage";
 import BlogPage from "./components/Blog/BlogPage";
 import Contact from "./components/Contact/Contact";
 import ThirdMiddle from "./components/ThirdMiddleSection/ThirdMiddle";
+import ExperienceSection from "./components/Experience/ExperienceSection";
 
   const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ import ThirdMiddle from "./components/ThirdMiddleSection/ThirdMiddle";
         {
           path:"booking",
           element:<ThirdMiddle/>
+        },
+        {
+          path:"experience",
+          element:<ExperienceSection/>
         }
       ]
     },

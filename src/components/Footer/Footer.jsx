@@ -5,7 +5,7 @@ import SocialMediaIcons from './SocialMediaIcons';
 
 const Footer = () => {
   return (
-    <div id='contact' className="relative  bg-interior-design min-h-screen flex items-center bg-center bg-cover lg:bg-top">
+    <div  className="relative  bg-interior-design  flex items-center bg-center bg-cover lg:bg-top">
       <div className="absolute inset-0 bg-black opacity-80 backdrop-blur-[6.5px]"></div>
       
       <div className="relative z-10 w-full">
