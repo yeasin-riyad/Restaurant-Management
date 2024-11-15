@@ -1,8 +1,7 @@
 import {  NavLink, useNavigate } from "react-router-dom";
 import MiddleContainer from "../../MiddleContainer";
 import NavbarButton from "../NavbarButton";
-// import LittleComponent from "./LittleComponent";
-import LittleComponent from "./littleComponent";
+import ReuseableComponent from "./ReuseableComponent";
 
 const TopMiddle = () => {
   const navigate=useNavigate()
@@ -94,21 +93,22 @@ const TopMiddle = () => {
         </div>
 
         <div className=" flex mt-4 flex-col justify-center gap-y-6  items-start lg:flex-row lg:justify-between lg:items-center lg:mt-16">
-          <LittleComponent
-            img="https://i.ibb.co.com/mXR2WLx/package.png"
-            alt="Package"
-            heading="FAST DELIVERY"
-            para="Within 30 minutes"
-          />
+         
+          <ReuseableComponent 
+           img="https://i.ibb.co.com/mXR2WLx/package.png"
+           alt="Package"
+           heading="FAST DELIVERY"
+           para="Within 30 minutes"
+           />
 
-          <LittleComponent
+          <ReuseableComponent
             img="https://i.ibb.co.com/hMD6Zbw/medal.png"
             alt={"Medal"}
             heading={"ABSOLUTE DINING"}
             para="Best buffet restaurant"
           />
 
-          <LittleComponent
+          <ReuseableComponent
             img={"https://i.ibb.co.com/85h0KtQ/bag.png"}
             alt={"Medal"}
             heading={"PICKUP DELIVERY"}
