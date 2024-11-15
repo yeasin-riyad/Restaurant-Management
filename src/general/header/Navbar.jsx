@@ -42,7 +42,7 @@ const Navbar = () => {
         </Container>
 
         {/* Hamburger Menu for Mobile */}
-        <HamburgerMenu isOpen={menuOpen} toggleMenu={toggleMenu} />
+        <HamburgerMenu isOpen={menuOpen} toggleMenu={toggleMenu} navigate={navigateBook}/>
       </nav>
 
    

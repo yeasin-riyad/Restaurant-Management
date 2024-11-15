@@ -3,7 +3,9 @@ import { FaTimes } from 'react-icons/fa';
 import NavLinks from './NavLinks';
 import NavbarButton from './NavbarButton';
 
-const HamburgerMenu = ({ isOpen, toggleMenu }) => (
+const HamburgerMenu = ({ isOpen, toggleMenu,navigate }) => (
+    
+    
     <div
         className={`fixed top-0 right-0 h-full w-3/4 bg-[rgb(197,44,31)] transform ${
             isOpen ? 'translate-x-0' : 'translate-x-full'
@@ -21,7 +23,10 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => (
         {/* Navigation Links and Button */}
         <div className="flex flex-col p-6 space-y-8">
             <NavLinks onClick={toggleMenu} />
-            <NavbarButton text={"Book A Table"} onClick={toggleMenu}/>
+            <NavbarButton text={"Book A Table"}  onClick={()=>(
+                navigate(),
+                toggleMenu()
+            )}/>
         </div>
     </div>
 );
@@ -30,6 +35,7 @@ const HamburgerMenu = ({ isOpen, toggleMenu }) => (
 HamburgerMenu.propTypes = {
     isOpen: PropTypes.bool.isRequired,
     toggleMenu: PropTypes.func.isRequired,
+    navigate:PropTypes.func
 };
 
 export default HamburgerMenu;
