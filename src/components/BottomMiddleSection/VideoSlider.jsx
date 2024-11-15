@@ -35,7 +35,7 @@ const VideoSlider = ({video}) => {
 
       </div>
 
-      <img className="w-10 p-0 h-[75px] absolute bottom-16 hidden md:block" src="../../../public/Group.svg" alt="" />
+      <img className="w-10 p-0 h-[75px] absolute bottom-14 hidden md:block" src="https://i.ibb.co.com/RDFbMP3/Vector-Stroke.png" alt="" />
 
       <div className="w-full overflow-visible">
         <div className="relative w-full h-[250px] pb-[56.25%] lg:h-[500px]">
